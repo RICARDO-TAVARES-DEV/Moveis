@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+main {}
+
+nav {
+
+    border: solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(./imagens/CORAIS.jpg);
+    font-size: 20px;
+
+}
+
+input {
+    width: 100vw;
+    background-image: url("./imagens/LUPA.png");
+    background-repeat: no-repeat;
+}
+
+nav img {
+    width: 20px;
+}
+
+ul {
+    width: 30vw;
+    display: flex;
+    /* border: solid blue; */
+    justify-content: space-around;
+    color: #fff;
+    cursor: pointer;
+    list-style: none;
+}
+
+
+figure {
+    margin-top: 20px;
+    display: flex;
+    width: 90vw;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.expositorio {
+
+    width: 10vw;
+    height: 20vh;
+}
+
+
+section {
+    width: 100vw;
+
+
+}
+
+h2 {
+    width: 100vw;
+    height: 20vh;
+    margin-top: 20px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 60px;
+    color: blue;
+    text-shadow: 0.2em 0.2em 0.15em #600;
+    background-color: #c0c0c0;
+    /* o primeiro em se refere a deslocamento pra direita quanto maior mais a direita ele irá 
+    e se colocar o sinal de negativo irá para esquerda*/
+    /* o segundo em se refere ao deslocamento para baixo ou seja quanto 
+    maior for mais ele irá pra baixo e se colocar negativo irá pra cima*/
+    /* o último em se refere a intensidade da sombra qto < maior é a nitidez do nome*/
+    /* quanto maior o último em menor será a nitidez do nome será uma fumaça */
+
+}
+
+h4 {
+    display: flex;
+    align-items: flex-end;
+}
+
+.logo {
+    width: 10vw;
+    border-radius: 80%;
+}
+
+.oferta {
+    width: 20vw;
+
+}
+
+.precos {
+    width: 96vw;
+    padding: 0;
+
+}
+
+h5 {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+
+}
+
+.rodape {
+    width: 30vw;
+    display: flex;
+    font-size: 30px;
+    background-color: transparent;
+    text-shadow: none;
+    text-align: left;
+    border: none;
+    color: #fff;
+    align-items: flex-start;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    color: #fff;
+
+    text-align: center;
+}
+
+footer ul {
+    display: flex;
+    width: 50vw;
+
+}
+
+
+fieldset {
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    background-image: url("./imagens/futuro\ azul.jpg");
+
+}
